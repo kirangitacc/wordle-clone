@@ -1,6 +1,5 @@
 
 # wordle-clone
-=======
 Wordle Clone
 
 ### Overview
