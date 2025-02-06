@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # wordle-clone
 =======
 Wordle Clone
@@ -99,7 +99,3 @@ Contributing
 Feel free to fork the repository and submit pull requests!
 
 Created by kiran kumar gangisetty
-
-[def]: ttps://imagekit.io/public/share/qdms7dhlt/a9920f8bc3c08bf0c308a6f17a847b6067e8caa904d3601cc5d8a2f3ed78e37bdb5fd8513b398cdd71f694f6fc780b8dc232ca71b6c244d92086bfd6f46048a569afca6d54f7b1ed2e87af19b5907f5
-[def2]: def
->>>>>>> d22b93a (Initial commit)
