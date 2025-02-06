@@ -1,0 +1,427 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.main-con{
+    display:flex;
+    flex-direction: column;
+    min-height:90vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.guess-con{
+    display:flex;
+    flex-direction: column;
+    overflow-y:scroll;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.inp{
+    width:30px;
+    height:30px;
+    margin:5px;
+    background-color: white;
+    border-radius:10px;
+    font-size: 15px;
+    padding:5px;
+    padding-left:7px;
+    font-weight: bold;
+    border:2px solid black;
+}
+
+
+.letters{
+    width:30px;
+    height:30px;
+    margin:5px;
+    background-color: black;
+    color:white;
+    border-radius:20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.delete-btn1{
+    width:30px;
+    height:30px;
+    margin:5px;
+    background-color: white;
+    color:black;
+    border-radius:20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.icon{
+    width:10px;
+    height:10px;
+}
+
+.nav{
+    display:flex;
+    width:90vw;
+    margin:10px;
+    margin-bottom:0;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+    height:10vh;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.main-heading{
+    font-size:20px;
+    margin-left:10px;
+}
+.attempts{
+    font-size:20px;
+    margin-right:10px;
+}
+
+.game-con{
+    display:flex;
+    width:90vw;
+    background-color: coral;
+    flex-direction: column;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-items: flex-start;
+}
+
+.inp-con{
+    display:flex;
+}
+.con1{
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+
+}
+.con2{
+    display:flex;
+    flex-direction: column;
+    width:80vw;
+    min-height:10vh;
+    margin:5px;
+    margin-left:20px;
+    align-items: center;
+    border-radius:10px;
+}
+.con2-h{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.rules-con{
+    display:flex;
+    flex-direction: column;
+    width:80vw;
+    margin:5px;
+    margin-left:10px;
+    height:12vh;
+    padding:5px;
+    background-color: white;
+    border-radius:10px;
+}
+.green{
+    width:10px;
+    height:10px;
+    border-radius: 10px;
+    background-color: green;
+    text-align: center;
+}
+.yellow{
+    width:10px;
+    height:10px;
+    border-radius: 10px;
+    background-color: yellow;
+    text-align: center;
+}
+.gray{
+    width:10px;
+    height:10px;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+}
+
+.pr{
+    font-size:10px;
+    margin-left:10px;
+    font-weight: bold;
+    margin-right:10px;
+    margin-top:0;
+    margin-bottom:0;
+}
+.rule-con{
+    display:flex;
+    height:20px;
+    padding-bottom:none;
+    align-items: center;
+}
+
+.sub-con1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    border-radius: 10px;
+}
+.sub-con2{
+    display:flex;
+    width:80vw;
+    flex-wrap:wrap;
+    min-height:20vh;
+    background-color: yellow;
+    margin:10px;
+    margin-bottom:0;
+    justify-content: center;
+    border-radius: 10px;
+}
+.clue-con{
+    display:flex;
+    justify-content: center;
+    min-width:20vw;
+    align-items: center;
+}
+.clue{
+    color:white;
+    font-size: 10px;
+    font-weight: bold;
+    font-family:'Open Sans', sans-serif;
+}
+.btn1{
+    width:60px;
+    height:20px;
+    margin:5px;
+    color:white;
+    background-color: rgb(0, 136, 255);
+    font-size:12px;
+    border-radius:10px;
+    border:0;
+    font-weight: bold;
+}
+
+.success-con{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:60vh;
+    border-radius:20px;
+    background-color: white;
+}
+.success-h1{
+    font-size: 30px;
+    color:green;
+}
+.failure-h1{
+    font-size: 30px;
+    color:red;
+}
+
+@media screen and (min-width:768px)  {
+
+    .main-con{
+        display:flex;
+        flex-direction: column;
+        min-height:100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav{
+        display:flex;
+        width:90vw;
+        margin:10px;
+        margin-bottom:0;
+        background-color: antiquewhite;
+        justify-content: space-between;
+        align-items: center;
+        height:10vh;
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;
+    }
+    .main-heading{
+        margin-left:100px;
+    }
+    .attempts{
+        margin-right:100px;
+    }
+
+    .game-con{
+        display:flex;
+        flex-direction: row;
+        width:90vw;
+        background-color: coral;
+        justify-content: space-between;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        align-items: flex-start;
+    }
+    .rules-con{
+        display:flex;
+        flex-direction: column;
+        width:40vw;
+        margin:10px;
+        min-height:25vh;
+        padding:10px;
+        background-color: white;
+        border-radius:10px;
+    }
+    .green{
+        width:20px;
+        height:20px;
+        border-radius: 20px;
+        background-color: green;
+        text-align: center;
+    }
+    .yellow{
+        width:20px;
+        height:20px;
+        border-radius: 20px;
+        background-color: yellow;
+        text-align: center;
+    }
+    .gray{
+        width:20px;
+        height:20px;
+        border-radius: 20px;
+        background-color: gray;
+        text-align: center;
+    }
+    
+    .pr{
+        font-size:15px;
+        margin-left:10px;
+        font-weight: bold;
+        margin-right:10px;
+    }
+    .rule-con{
+        display:flex;
+        height:50px;
+        padding-bottom:none;
+    }
+    .inp{
+        width:50px;
+        height:50px;
+        margin:10px;
+        background-color: white;
+        border-radius:20px;
+        font-size: 30px;
+        padding:5px;
+        padding-left:12px;
+        padding-bottom:10px;
+        font-weight: bold;
+        border:5px solid black;
+    }
+    .letters{
+        width:50px;
+        height:50px;
+        margin:5px;
+        background-color: black;
+        color:white;
+        border-radius:20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .sub-con1{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:10px;
+        border:3px solid black;
+        border-radius: 10px;
+    }
+    .sub-con2{
+        display:flex;
+        width:40vw;
+        flex-wrap:wrap;
+        min-height:35vh;
+        background-color: yellow;
+        margin:10px;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .clue-con{
+        display:flex;
+        justify-content: center;
+        width:30vw;
+        align-items: center;
+    }
+    .clue{
+        color:white;
+        font-size: 20px;
+        font-weight: bold;
+        font-family:'Open Sans', sans-serif;
+    }
+    .btn1{
+        width:100px;
+        height:30px;
+        margin:10px;
+        color:white;
+        background-color: rgb(0, 136, 255);
+        font-size:15px;
+        border-radius:10px;
+        border:0;
+        font-weight: bold;
+    }
+    
+    .success-con{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height:60vh;
+        border-radius:20px;
+        background-color: white;
+    }
+    .success-h1{
+        font-size: 30px;
+        color:green;
+    }
+    .failure-h1{
+        font-size: 30px;
+        color:red;
+    }
+    .delete-btn1{
+        width:50px;
+        height:50px;
+        margin:5px;
+        background-color: white;
+        color:black;
+        border-radius:20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .icon{
+        width:20px;
+        height:20px;
+    }
+    .con2{
+        display:flex;
+        flex-direction: column;
+        width:40vw;
+        min-height:20vh;
+        margin:25px;
+        align-items: center;
+        border-radius:20px;
+    }
+    .con2-h{
+        font-size: 25px;
+    
+    }
+    .guess-con{
+        display:flex;
+        flex-direction: column;
+        overflow-y:visible;
+        min-height: 10vh;
+    }
+    
+    
+}
