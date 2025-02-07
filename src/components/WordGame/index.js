@@ -207,7 +207,7 @@ class WordGame extends Component {
             suffix='st'
         }else if(clue===1){
             suffix='nd'
-        else if(clue===2){
+        }else if(clue===2){
             suffix='rd
         }else{
             suffix='th'
